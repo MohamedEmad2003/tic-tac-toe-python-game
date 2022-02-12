@@ -25,11 +25,11 @@ def define_sign(number):
             plyr_2 = all(elem in player_1 for elem in j)
             if plyr_1 == True:
                 print("Player 1 wins")
-                showinfo("game result : player 1 has won")
+                showinfo("player 1 has won")
                 break
             elif plyr_2 == True:
                 print("Player 2 wins")
-                showinfo("game result : player 2 has won")
+                showinfo("player 2 has won")
                 break
             else:
                 pass
